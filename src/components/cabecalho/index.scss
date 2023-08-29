@@ -1,0 +1,45 @@
+
+
+.Cabecalho {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px;
+    height: 9vh;
+    justify-content: space-between;
+    background-color: #8BA9BE;
+
+    > img {
+        cursor: pointer;
+    }
+
+    nav {
+        gap: 30px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        p {
+            transition: 0.2s;
+        }
+
+        p:hover {
+            transform: translateY(-3px);
+            transition: 0.2s;
+            cursor: pointer;
+            color: #005;
+        }
+
+        img {
+            border-radius: 100px;
+            transition: 0.2s;
+        }
+
+        img:hover {
+            transform: translateY(-3px);
+            transition: 0.2s;
+            cursor: pointer;
+        }
+    }
+}
